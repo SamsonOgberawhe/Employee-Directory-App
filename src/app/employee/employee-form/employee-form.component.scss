@@ -1,0 +1,28 @@
+.row{
+  display: flex;
+  gap: 10px;
+  padding-top: 5px;
+
+  mat-form-field{
+    width: 100%;
+  }
+}
+
+.action {
+  padding: 0 25px 20px;
+
+  button {
+    flex: 1;
+    width: 100%;
+  }
+}
+
+mat-dialog-content{
+  background-color: white;
+}
+
+mat-dialog-container {
+  background-color: #ffffff !important; /* White background */
+  color: #000000; /* Optional: Black text for contrast */
+  border-radius: 8px; /* Optional: Rounded corners */
+}
